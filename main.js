@@ -19,7 +19,10 @@ for (const btn of button) {
                     display.value = '';
                     calculator = 0;
                     display.style.color = 'black';
-                }, 3000)            
+                }, 1000)
+                setTimeout(() => {
+                    clearInterval(apagaMsg)
+                }, 1500)
                 
             }
         } else {
